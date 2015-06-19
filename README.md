@@ -3,7 +3,9 @@
 mysql udf eval/cmd shell
 
 **只适用于MySQL > 5.1**
-      
+
+源码来自https://github.com/mysqludf/lib_mysqludf_sys
+
     一般过程
     
     >show variables like '%version%';       //查目标Mysql版本
