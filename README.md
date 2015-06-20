@@ -6,6 +6,8 @@ mysql udf eval/cmd shell
 
 源码来自https://github.com/mysqludf/lib_mysqludf_sys
 
+dll文件编译自vs2012
+
     一般过程
     
     >show variables like '%version%';       //查目标Mysql版本
@@ -23,7 +25,7 @@ mysql udf eval/cmd shell
  * errno 126
        
         1. 检查编译UDF用到的MySQL版本与目标MySQL版本是否对应
-        2. 目标机器是否缺少各种包，如Microsoft Visual C++ redistrubutable (这条基本无解)
+        2. 目标机器是否缺少各种包，如Microsoft Visual C++ redistrubutable
 
  * errno 193
 
