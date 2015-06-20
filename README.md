@@ -25,9 +25,10 @@ dll文件编译自vs2012
  * errno 126
        
         1. 检查编译UDF用到的MySQL版本与目标MySQL版本是否对应
-        2. 目标机器是否缺少各种包，如Microsoft Visual C++ redistrubutable
+        2. 目标机器是否缺少各种包，如Microsoft Visual C++ 20xx redistrubutable
 
  * errno 193
 
         1. udf文件存在，但文件格式错误 (文件损坏)
+		2. x86/x64的udf搞混
 
